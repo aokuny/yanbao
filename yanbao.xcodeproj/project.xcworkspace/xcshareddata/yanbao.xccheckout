@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>74A6A641-E8F1-4BE4-9FD0-52720B248326</string>
+	<key>IDESourceControlProjectName</key>
+	<string>yanbao</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>e1ee1b43-9587-48ee-b36f-e19d7fd7e079++6581</key>
+		<string>http://192.168.4.12/svn/ihandy/project-dev/083.%25E6%25B1%25BD%25E8%25BD%25A6%25E5%25BB%25B6%25E4%25BF%259D%25E9%25A1%25B9%25E7%259B%25AE</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>01.项目源码/trunk/yanbao/ios/yanbao_channel/yanbao.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>e1ee1b43-9587-48ee-b36f-e19d7fd7e079++6581</key>
+		<string>../../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>e1ee1b43-9587-48ee-b36f-e19d7fd7e079++6581</key>
+		<string>http://192.168.4.12/svn/ihandy</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.4.12/svn/ihandy/project-dev/083.%25E6%25B1%25BD%25E8%25BD%25A6%25E5%25BB%25B6%25E4%25BF%259D%25E9%25A1%25B9%25E7%259B%25AE/01.%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/yanbao/ios/yanbao_channel/yanbao.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>e1ee1b43-9587-48ee-b36f-e19d7fd7e079++6581</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>e1ee1b43-9587-48ee-b36f-e19d7fd7e079++6581</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>e1ee1b43-9587-48ee-b36f-e19d7fd7e079++6581</string>
+			<key>IDESourceControlWCCName</key>
+			<string>qcyb</string>
+		</dict>
+	</array>
+</dict>
+</plist>
