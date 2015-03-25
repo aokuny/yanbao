@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F03D6401ABC03520006809F /* CheckListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F03D63F1ABC03520006809F /* CheckListTableViewCell.m */; };
+		2F03D6431ABC04D10006809F /* CheckInModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F03D6421ABC04D10006809F /* CheckInModel.m */; };
+		2F03D6461AC0EF870006809F /* CheckInList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F03D6451AC0EF870006809F /* CheckInList.m */; };
 		2F126E9F1A68E52000615D77 /* ChannelNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F126E9E1A68E52000615D77 /* ChannelNumberViewController.m */; };
 		2F6476CC1A4B0F3200BA8084 /* shake_sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6476CB1A4B0F3200BA8084 /* shake_sound.caf */; };
 		2F6476CF1A4BB51C00BA8084 /* ProductList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6476CE1A4BB51C00BA8084 /* ProductList.m */; };
@@ -14,6 +17,8 @@
 		2F6476D51A4BF24400BA8084 /* PriceList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6476D41A4BF24400BA8084 /* PriceList.m */; };
 		2F813B211A676C5700E6CAAF /* InsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F813B201A676C5700E6CAAF /* InsetsLabel.m */; };
 		2F81786A1A47C94800483449 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8178691A47C94800483449 /* ProgressView.m */; };
+		2F9A5E4D1ABA9A7900A2D3EC /* CheckInsuranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9A5E4C1ABA9A7900A2D3EC /* CheckInsuranceViewController.m */; };
+		2F9A5E501ABAD90A00A2D3EC /* CheckInListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9A5E4F1ABAD90A00A2D3EC /* CheckInListViewController.m */; };
 		2FB28ABE1A490C1700F91AE7 /* ActivityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB28ABD1A490C1700F91AE7 /* ActivityListViewController.m */; };
 		2FB28AC11A49408C00F91AE7 /* InMakingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB28AC01A49408C00F91AE7 /* InMakingViewController.m */; };
 		2FB28AC41A494FA600F91AE7 /* CommonQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB28AC31A494FA600F91AE7 /* CommonQuestionViewController.m */; };
@@ -95,6 +100,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F03D63E1ABC03520006809F /* CheckListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListTableViewCell.h; sourceTree = "<group>"; };
+		2F03D63F1ABC03520006809F /* CheckListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListTableViewCell.m; sourceTree = "<group>"; };
+		2F03D6411ABC04D10006809F /* CheckInModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInModel.h; sourceTree = "<group>"; };
+		2F03D6421ABC04D10006809F /* CheckInModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInModel.m; sourceTree = "<group>"; };
+		2F03D6441AC0EF870006809F /* CheckInList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInList.h; sourceTree = "<group>"; };
+		2F03D6451AC0EF870006809F /* CheckInList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInList.m; sourceTree = "<group>"; };
 		2F126E9D1A68E52000615D77 /* ChannelNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelNumberViewController.h; sourceTree = "<group>"; };
 		2F126E9E1A68E52000615D77 /* ChannelNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelNumberViewController.m; sourceTree = "<group>"; };
 		2F6476CB1A4B0F3200BA8084 /* shake_sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shake_sound.caf; sourceTree = "<group>"; };
@@ -108,6 +119,10 @@
 		2F813B201A676C5700E6CAAF /* InsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetsLabel.m; sourceTree = "<group>"; };
 		2F8178681A47C94800483449 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
 		2F8178691A47C94800483449 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		2F9A5E4B1ABA9A7900A2D3EC /* CheckInsuranceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInsuranceViewController.h; sourceTree = "<group>"; };
+		2F9A5E4C1ABA9A7900A2D3EC /* CheckInsuranceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInsuranceViewController.m; sourceTree = "<group>"; };
+		2F9A5E4E1ABAD90A00A2D3EC /* CheckInListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInListViewController.h; sourceTree = "<group>"; };
+		2F9A5E4F1ABAD90A00A2D3EC /* CheckInListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInListViewController.m; sourceTree = "<group>"; };
 		2FB28ABC1A490C1700F91AE7 /* ActivityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListViewController.h; sourceTree = "<group>"; };
 		2FB28ABD1A490C1700F91AE7 /* ActivityListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityListViewController.m; sourceTree = "<group>"; };
 		2FB28ABF1A49408C00F91AE7 /* InMakingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMakingViewController.h; sourceTree = "<group>"; };
@@ -282,6 +297,12 @@
 				2FB28ABD1A490C1700F91AE7 /* ActivityListViewController.m */,
 				2FEE2E7B1A51343C00D00B58 /* NoActivityViewController.h */,
 				2FEE2E7C1A51343C00D00B58 /* NoActivityViewController.m */,
+				2F9A5E4B1ABA9A7900A2D3EC /* CheckInsuranceViewController.h */,
+				2F9A5E4C1ABA9A7900A2D3EC /* CheckInsuranceViewController.m */,
+				2F9A5E4E1ABAD90A00A2D3EC /* CheckInListViewController.h */,
+				2F9A5E4F1ABAD90A00A2D3EC /* CheckInListViewController.m */,
+				2F03D63E1ABC03520006809F /* CheckListTableViewCell.h */,
+				2F03D63F1ABC03520006809F /* CheckListTableViewCell.m */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -485,6 +506,10 @@
 				2F6476D41A4BF24400BA8084 /* PriceList.m */,
 				2FBBD5441A5F820900BBD90A /* VersionModel.h */,
 				2FBBD5451A5F820900BBD90A /* VersionModel.m */,
+				2F03D6411ABC04D10006809F /* CheckInModel.h */,
+				2F03D6421ABC04D10006809F /* CheckInModel.m */,
+				2F03D6441AC0EF870006809F /* CheckInList.h */,
+				2F03D6451AC0EF870006809F /* CheckInList.m */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -739,11 +764,13 @@
 				2FF060AD1A43EC1F0070764F /* CATextLayer+NumberJump.m in Sources */,
 				2FF060D31A43EC1F0070764F /* UIScrollView+MJExtension.m in Sources */,
 				2FF060D91A43EC1F0070764F /* SRRefreshView.m in Sources */,
+				2F03D6461AC0EF870006809F /* CheckInList.m in Sources */,
 				2FF060B61A43EC1F0070764F /* UIColor+AppColor.m in Sources */,
 				2FF060B01A43EC1F0070764F /* NSDateFormatter+Category.m in Sources */,
 				2FF060CB1A43EC1F0070764F /* ImagePlayerView.m in Sources */,
 				2FF060D01A43EC1F0070764F /* MJRefreshConst.m in Sources */,
 				2FF060B91A43EC1F0070764F /* UIViewController+DismissKeyboard.m in Sources */,
+				2F9A5E4D1ABA9A7900A2D3EC /* CheckInsuranceViewController.m in Sources */,
 				2FF060AF1A43EC1F0070764F /* NSDate+Category.m in Sources */,
 				2FF060C21A43EC1F0070764F /* UIImage+ImageWithColor.m in Sources */,
 				2FF060B21A43EC1F0070764F /* PickerViewController.m in Sources */,
@@ -765,6 +792,7 @@
 				2FF060CF1A43EC1F0070764F /* MJRefreshBaseView.m in Sources */,
 				2F126E9F1A68E52000615D77 /* ChannelNumberViewController.m in Sources */,
 				2FF060C31A43EC1F0070764F /* UIImage+Screenshot.m in Sources */,
+				2F9A5E501ABAD90A00A2D3EC /* CheckInListViewController.m in Sources */,
 				2FF060C71A43EC1F0070764F /* Api.m in Sources */,
 				2FF060CD1A43EC1F0070764F /* MBProgressHUD.m in Sources */,
 				2FBA0AFF1A44353700598264 /* QuotePriceViewController.m in Sources */,
@@ -776,6 +804,7 @@
 				2FF060A51A43EC1F0070764F /* BaseViewController.m in Sources */,
 				2FF060C61A43EC1F0070764F /* UIViewController+HUD.m in Sources */,
 				2FB28AC41A494FA600F91AE7 /* CommonQuestionViewController.m in Sources */,
+				2F03D6401ABC03520006809F /* CheckListTableViewCell.m in Sources */,
 				2FF060D51A43EC1F0070764F /* UIView+MJExtension.m in Sources */,
 				2F6476D51A4BF24400BA8084 /* PriceList.m in Sources */,
 				2FF060A41A43EC1F0070764F /* BaseNavigationController.m in Sources */,
@@ -790,6 +819,7 @@
 				2FBBD5461A5F820900BBD90A /* VersionModel.m in Sources */,
 				2FF060B31A43EC1F0070764F /* PickView.m in Sources */,
 				2FB28ABE1A490C1700F91AE7 /* ActivityListViewController.m in Sources */,
+				2F03D6431ABC04D10006809F /* CheckInModel.m in Sources */,
 				2FF060D41A43EC1F0070764F /* UIScrollView+MJRefresh.m in Sources */,
 				2FF060CC1A43EC1F0070764F /* MBProgressHUD+Add.m in Sources */,
 				2F813B211A676C5700E6CAAF /* InsetsLabel.m in Sources */,
