@@ -14,6 +14,9 @@
 #import "InMakingViewController.h"
 #import "VersionModel.h"
 #import "InsetsLabel.h"
+#import "CheckInsuranceViewController.h"
+#import "CheckInListViewController.h"
+#import "ChannelNumberViewController.h"
 
 @interface MainViewController (){
     VersionModel *versionInfo;
@@ -175,7 +178,18 @@
 //    [self.view addSubview:btnBaike];
     [bgView addSubview:btnBaike];
     // VNCode
-    UILabel *labVNCodeTitle = [self createTitleLableWithTitle:@"VIN码报价"];
+//    UILabel *labVNCodeTitle = [self createTitleLableWithTitle:@"VIN码报价"];
+//    [labVNCodeTitle setTextColor:[UIColor whiteColor]];
+//    UILabel *labVNCodeSubTitle = [self createSubTitleWithString:@"携带行驶证请选择"];
+//    [labVNCodeSubTitle setTextColor:[UIColor whiteColor]];
+//    UIImageView *imgVINCode = [UIImageView new];
+//    [imgVINCode setImage:[UIImage imageNamed:@"vincode"]];
+//    [imgVINCode setBackgroundColor:[UIColor clearColor]];
+//    [btnVNCode addSubview:labVNCodeTitle];
+//    [btnVNCode addSubview:labVNCodeSubTitle];
+//    [btnVNCode addSubview:imgVINCode];
+//    [bgView addSubview:btnVNCode];
+    UILabel *labVNCodeTitle = [self createTitleLableWithTitle:@"核保查询"];
     [labVNCodeTitle setTextColor:[UIColor whiteColor]];
     UILabel *labVNCodeSubTitle = [self createSubTitleWithString:@"携带行驶证请选择"];
     [labVNCodeSubTitle setTextColor:[UIColor whiteColor]];
@@ -185,7 +199,6 @@
     [btnVNCode addSubview:labVNCodeTitle];
     [btnVNCode addSubview:labVNCodeSubTitle];
     [btnVNCode addSubview:imgVINCode];
-//    [self.view addSubview:btnVNCode];
     [bgView addSubview:btnVNCode];
     // BizCall
     UILabel *labBizCallTitle = [self createTitleLableWithTitle:@"业务咨询"];
@@ -360,13 +373,15 @@
     }];
     // Event
     [btnBaike handleControlEvent:UIControlEventTouchUpInside withBlock:^{
-//        [JGProgressHUD showHintStr:@"Building"];
         InMakingViewController *inMakingVC = [[InMakingViewController alloc]init];
         [self.navigationController pushViewController:inMakingVC animated:YES];
     }];
     [btnVNCode handleControlEvent:UIControlEventTouchUpInside withBlock:^{
-        VNCodeViewController *vncodeVC = [[VNCodeViewController alloc]init];
-        [self.navigationController pushViewController:vncodeVC animated:YES];
+        if(![self judgeChanelNumberLocal]){
+            return;
+        }
+        CheckInListViewController *chkListVC = [CheckInListViewController new];
+        [self.navigationController pushViewController:chkListVC animated:YES];
     }];
     [btnBizCall handleControlEvent:UIControlEventTouchUpInside withBlock:^{
         NSMutableString * str=[[NSMutableString alloc] initWithFormat:@"telprompt://%@",DEFAULT_PHONENUMBER];
@@ -387,10 +402,6 @@
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [btn setBackgroundColor:color];
     btn.layer.cornerRadius = 10;
-//    btn.layer.shadowOffset =  CGSizeMake(3.0,5.0);
-//    btn.layer.shadowOpacity = 0.5;
-//    btn.layer.shadowRadius = 5;
-//    btn.layer.shadowColor =  [UIColor blackColor].CGColor;
     return btn;
 }
 -(UILabel *) createTitleLableWithTitle:(NSString *)title{
@@ -413,6 +424,19 @@
     [self.navigationController pushViewController:sysSettingVC animated:YES];
 }
 
+#pragma mark 验证本地是否已经验证
+-(BOOL) judgeChanelNumberLocal{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    if([userDefaults objectForKey:@"CHANNEL_NUMBER"]){
+        return YES;
+    }else{
+        ChannelNumberViewController *chanelView = [ChannelNumberViewController new];
+        BaseNavigationController *b = [[BaseNavigationController alloc]init];
+        [b addChildViewController:chanelView];
+        [self presentViewController:b animated:YES completion:^{}];
+        return NO;
+    }
+}
 
 #pragma mark 版本更新
 -(void) checkVersion{

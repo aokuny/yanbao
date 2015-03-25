@@ -18,17 +18,18 @@
 #define BASE_URL   @"http://192.168.4.109:8188/ihandy_yanbao_app_server/"
 #else
 /*外网地址*/
-#define BASE_URL   @"http://www.chelenet.com:8082/ihandy_yanbao_app_server_channel"
+//#define BASE_URL   @"http://www.chelenet.com:8082/ihandy_yanbao_app_server_channel"
+#define BASE_URL   @"http://www.chelenet.com:8082/ihandy_yanbao_app_server_wapsite"
 #endif
 
 // 升级地址
 //#define DOMAIN_URL @"https://www.chelenet.com"
 // 渠道
-#define CHANNEL_NUMBER @"10001"
+#define CHANNEL_NUMBER @"21"
 // 类型 2为ios
 #define CHANNEL_GENRE @"2"
 // 显示的版本号
-#define CHANNEL_DISPLAYVERSION @"1.0.7"
+#define CHANNEL_DISPLAYVERSION @"1.0.8"
 // 默认标题
 #define DEFAULT_TITLE @"车乐无忧"
 // 服务电话
@@ -87,6 +88,11 @@
 #define YB_PRODUCTLIST_NEW  @"interface/getNewProList.do" /*产品列表*/
 #define YB_ACTIVITYLIST_NEW   @"interface/getNewActivityList.do" /*活动列表*/
 #define YB_PRICE_NEW @"interface/getNewPreferentialPriceList.do" /*价格列表*/
+
+#define YB_CHECKLIST @"interface/getquerylist.do" /*查询核保状态列表*/
+#define YB_CHECKADD @"interface/queryunderwriting.do" /*增加查询核保信息*/
+#define YB_CHECKDELETE @"interface/deleteuserquery.do" /*删除核保信息*/
+
 
 
 // 测试环境
