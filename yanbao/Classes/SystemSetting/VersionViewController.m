@@ -169,7 +169,7 @@
             }
             // 渠道号码、客户端类型、bundleId 必须匹配
             if([CHANNEL_GENRE isEqual: versionInfo.numclientGenre]&&
-               [CHANNEL_NUMBER isEqual:versionInfo.numchannelNumber]&&
+//               [CHANNEL_NUMBER isEqual:versionInfo.numchannelNumber]&&
                [localBundleIdKey isEqual:versionInfo.vc2packageValue]){
                 // 对比版本
                 if (localVersionKey.intValue < versionInfo.numversionCode.intValue){

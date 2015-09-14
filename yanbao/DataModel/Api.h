@@ -19,7 +19,8 @@
 #else
 /*外网地址*/
 //#define BASE_URL   @"http://www.chelenet.com:8082/ihandy_yanbao_app_server_channel"
-#define BASE_URL   @"http://www.chelenet.com:8082/ihandy_yanbao_app_server_wapsite"
+//#define BASE_URL   @"http://www.chelenet.com:8082/ihandy_yanbao_app_server_wapsite"
+#define BASE_URL   @"http://app.chelenet.com/"
 #endif
 
 // 升级地址
@@ -29,7 +30,7 @@
 // 类型 2为ios
 #define CHANNEL_GENRE @"2"
 // 显示的版本号
-#define CHANNEL_DISPLAYVERSION @"1.0.8"
+#define CHANNEL_DISPLAYVERSION @"1.0.9"
 // 默认标题
 #define DEFAULT_TITLE @"车乐无忧"
 // 服务电话
